@@ -7,8 +7,8 @@ const App = () => {
 
   //crating 3 useState() for city, temparature and weather.
   let[city,setCity]=useState(null);
-  let[temp,setTemp]=useState(false);
-  let[weather,setWeather]=useState("");
+  let[temp,setTemp]=useState(25);
+  let[weather,setWeather]=useState("Sunny");
 
   console.log("city",city);
   console.log("temp",temp);
