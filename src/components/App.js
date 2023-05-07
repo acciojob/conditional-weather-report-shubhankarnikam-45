@@ -76,17 +76,21 @@ const App = () => {
         {
           
          temp && temp>20 &&
-         ( 
-            <p style={{color:"red"}}>Temparature: {temp}, conditions: "{weather}"</p>
+         ( <div>
+            <p style={{color:"red"}}>Temparature: {temp}</p>
+            <p style={{color:"red"}}>Conditions: "{weather}"</p>
+            </div>
           )
 }
   {
           temp && temp<=20 &&
           (
             
-              <p style={{color:"blue"}}>
-              Temparature: {temp}, conditions: "{weather}"
-              </p>
+            <div>
+              <p style={{color:"blue"}}>Temparature: {temp}</p>
+            <p style={{color:"blue"}}>Conditions: "{weather}"</p>
+            </div>
+             
 
           )
         }
